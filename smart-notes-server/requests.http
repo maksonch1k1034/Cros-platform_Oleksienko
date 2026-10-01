@@ -1,0 +1,32 @@
+### Отримати всі напої кав'ярні
+GET http://localhost:3000/api/coffees
+
+### Отримати напій за ID (підставте реальний id)
+GET http://localhost:3000/api/coffees/6abea01faaeca0a2907eeb7b
+
+### Створити новий напій у меню
+POST http://localhost:3000/api/coffees
+Content-Type: application/json
+
+{
+  "name": "Cappuccino",
+  "category": "Кава",
+  "description": "Класична кава з пишною молочною пінкою",
+  "price": 65,
+  "volume": 300
+}
+
+### Оновити напій за ID (підставте реальний id)
+PUT http://localhost:3000/api/coffees/6abea01faaeca0a2907eeb7b
+Content-Type: application/json
+
+{
+  "name": "Cappuccino Large",
+  "category": "Кава",
+  "description": "Збільшена порція улюбленого капучино з подвійним еспресо",
+  "price": 85,
+  "volume": 400
+}
+
+### Видалити напій за ID (підставте реальний id)
+DELETE http://localhost:3000/api/coffees/6abea01faaeca0a2907eeb7b

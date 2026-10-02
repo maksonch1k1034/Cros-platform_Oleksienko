@@ -2,7 +2,7 @@
 GET http://localhost:3000/api/coffees
 
 ### Отримати напій за ID (підставте реальний id)
-GET http://localhost:3000/api/coffees/6abea01faaeca0a2907eeb7b
+GET http://localhost:3000/api/coffees/6abf4fcff18dc2acbc159035
 
 ### Створити новий напій у меню
 POST http://localhost:3000/api/coffees
@@ -17,7 +17,7 @@ Content-Type: application/json
 }
 
 ### Оновити напій за ID (підставте реальний id)
-PUT http://localhost:3000/api/coffees/6abea01faaeca0a2907eeb7b
+PUT http://localhost:3000/api/coffees/6abf4fcff18dc2acbc159035
 Content-Type: application/json
 
 {

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>FirstCoffee — кросплатформний застосунок </title>
+    <link rel ="stylesheet" href = "style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <h1>FirstCoffee</h1>
+        <p>Навчальний кросплатформний застосунок</p>
+    </div>
+</header>
+
+<main class="container container-main">
+    <section class = "card">
+        <h2>Про застосунок</h2>
+        <p>
+            <b>FirstCoffee</b> — це навчальний проєкт кросплатформного застосунку кав'ярні.
+            Він створений для того, щоб на практиці показати, як можна зручно переглядати меню та замовляти каву з будь-якого пристрою: комп'ютера, планшета чи смартфона.
+        </p>
+        <p>
+            Для створення стильного інтерфейсу використано HTML і CSS, а для швидкої взаємодії з користувачем — JavaScript.
+        </p>
+    </section>
+
+    <section class="card">
+        <h2>Основні функції застосунку</h2>
+        <ul class = "list">
+            <li><b>Перегляд актуального меню:</b> доступ до каталогу товарів із цінами, описами напоїв та зручним розподілом за категоріями</li>
+            <li><b>Формування кошика:</b> можливість клієнта додавати обрані позиції, змінювати їх кількість та автоматично розраховувати загальну вартість.</li>
+            <li><b>Швидке оформлення замовлення:</b> миттєве підтвердження замовлення онлайн із генерацією унікального номера, що дозволяє уникати черг.</li>
+            <li><b>Зручний пошук та фільтрація:</b> можливість миттєво знайти потрібний напій за назвою або обрати товари з конкретної категорії без необхідності гортати весь список.</li>
+            <li><b>Особистий кабінет:</b> проста реєстрація та авторизація, яка дозволяє зберігати дані клієнта для зручнішої взаємодії із застосунком.</li>
+        </ul>
+    </section>
+
+    <section class="card">
+        <h2>Швидке замовлення</h2>
+        <div class="action-block">
+            <input type="text" placeholder="Введіть ваше замовлення: " class="input-field">
+            <button class="btn-action">Замовити каву</button>
+        </div>
+        <p class="action-message">Ваше замовлення прийнято в обробку!</p>
+    </section>
+
+    <section class="card">
+        <h2>Ваш кошик</h2>
+        <div id="order-list">
+            <p class="empty-list-text">Кошик поки порожній...</p>
+        </div>
+    </section>
+
+    <section class = "card">
+        <h2>Обраний стек технологій</h2>
+        <p>
+            Для розробки цього проєкту обрано WebView-підхід. Оскільки застосунок кав'ярні FirstCoffee реалізовано
+            за допомогою стандартних вебтехнологій (HTML, CSS, JS), він може безперешкодно працювати у звичайному
+            браузері або бути вбудованим у нативний мобільний застосунок за допомогою компонента WebView.
+        </p>
+        <table class="tech-table">
+            <thead>
+            <tr>
+                <th>Компонент</th>
+                <th>Технологія</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Структура сторінки</td>
+                <td>HTML</td>
+            </tr>
+            <tr>
+                <td>Оформлення</td>
+                <td>CSS</td>
+            </tr>
+            <tr>
+                <td>Логіка</td>
+                <td>JavaScript</td>
+            </tr>
+            <tr>
+                <td>Платформа запуску</td>
+                <td>Браузер / WebView</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+</main>
+
+<footer class = "footer">
+    <p>Лабораторна робота 1.2: Основи кросплатформності</p>
+</footer>
+</body>
+</html>

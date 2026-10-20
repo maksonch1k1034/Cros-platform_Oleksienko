@@ -5,7 +5,7 @@ function Header({ total, done }) {
                 Coffee First SPA
             </h1>
             <p className="text-center text-slate-600 mb-5">
-                Усього товарів: {total} · В наявності: {done}
+                Усього товарів: {total} · В стоп-листі: {done}
             </p>
         </header>
     );

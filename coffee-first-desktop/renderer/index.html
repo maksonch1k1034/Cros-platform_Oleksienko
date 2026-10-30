@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee First Desktop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="header">
+    <h1>Coffee First Desktop</h1>
+    <p>Десктопний застосунок для керування меню кав'ярні</p>
+</div>
+
+<div class="container container-main">
+    <div class="card">
+        <h2>Додати позицію в меню</h2>
+        <div class="action-block">
+            <input
+                    type="text"
+                    id="coffeeInput"
+                    class="input-field"
+                    placeholder="Введіть назву напою чи десерту"
+                    autocomplete="off"
+            >
+            <button id="addCoffeeButton" class="btn-action">Додати до меню</button>
+        </div>
+        <p id="message" class="action-message"></p>
+    </div>
+
+    <div class="card">
+        <h2>Меню кав'ярні</h2>
+        <ul id="coffeesList" style="list-style: none; padding: 0; margin: 0;"></ul>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "coffee-first-desktop",
+  "version": "1.0.0",
+  "description": "Десктопний застосунок для керування меню кав'ярні Coffee First",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "coffee",
+    "electron",
+    "desktop"
+  ],
+  "author": "Maksym Oleksienko",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^35.0.0"
+  }
+}

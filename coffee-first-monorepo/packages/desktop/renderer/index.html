@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline';">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee First Desktop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero-header">
+    <h1>Coffee First Desktop</h1>
+    <p>Десктоп-версія застосунку для кав'ярні на Electron та спільній логіці @coffee-first/core</p>
+</header>
+
+<main class="main-container">
+    <section class="card">
+        <h2 class="card-title">Додати позицію</h2>
+        <form id="add-form">
+            <input type="text" id="coffee-input" placeholder="Введіть назву напою чи десерту..." />
+            <button type="submit" class="btn-primary">Додати позицію</button>
+        </form>
+        <div id="status-message" class="status-message"></div>
+    </section>
+
+    <section class="card">
+        <h2 class="card-title">Список позицій</h2>
+        <div class="search-box">
+            <input type="text" id="search-input" placeholder="Пошук за текстом" />
+        </div>
+        <ul id="coffee-list" class="coffee-list"></ul>
+    </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "coffee-first-monorepo-desktop",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@coffee-first/core": "*"
+  },
+  "devDependencies": {
+    "electron": "^30.0.0"
+  }
+}

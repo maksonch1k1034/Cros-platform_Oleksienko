@@ -1,4 +1,4 @@
-# Coffee first — кросплатформний застосунок кав'ярні
+# Coffee first - кросплатформний застосунок кав'ярні
 
 Монорепозиторій (`npm workspaces`) кросплатформного застосунку для автоматизації роботи кав'ярні «Coffee first» зі спільним ядром бізнес-логіки та платформними адаптерами збереження даних.
 
@@ -27,9 +27,9 @@
 
 ## Структура монорепозиторію
 
-- [packages/core](./packages/core) — спільне ядро бізнес-логіки (`CoffeeService`, валідація `validateCoffeeText`, фільтрація `filterCoffeesByQuery`, абстрактний `CoffeeStorageAdapter`) та 24 автотести (`node:test`).
-- [packages/web](./packages/web) — вебклієнт із `LocalStorageAdapter`, підключенням ядра через `<script type="importmap">` та локальним HTTP-сервером (`node:http`).
-- [packages/desktop](./packages/desktop) — десктопний клієнт Electron 35 із `FileStorageAdapter` (`coffees.json`), винесеними обробниками `ipcHandlers.js` та ізольованим `preload.cjs`.
+- [packages/core](./packages/core) - спільне ядро бізнес-логіки (`CoffeeService`, валідація `validateCoffeeText`, фільтрація `filterCoffeesByQuery`, абстрактний `CoffeeStorageAdapter`) та 24 автотести (`node:test`).
+- [packages/web](./packages/web) - вебклієнт із `LocalStorageAdapter`, підключенням ядра через `<script type="importmap">` та локальним HTTP-сервером (`node:http`).
+- [packages/desktop](./packages/desktop) - десктопний клієнт Electron 35 із `FileStorageAdapter` (`coffees.json`), винесеними обробниками `ipcHandlers.js` та ізольованим `preload.cjs`.
 
 ## Запуск та тестування
 
